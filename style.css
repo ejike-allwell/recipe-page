@@ -4,9 +4,18 @@
     --prepare-color: hsl(330, 100%, 98%);
     --font-color: hsl(30, 10%, 34%);
 }
+@font-face {
+    font-family: 'myFont';
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+    font-family: 'my2font';
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
 @media screen and (min-width:20rem) {
     body{
         background-color: var(--bg-color);
+        font-family:'myFont','my2font',Verdana, Geneva, Tahoma, sans-serif;
     }
     img{
         max-width: 100%;
@@ -77,6 +86,7 @@
         background-color:rgb(247, 219, 231);
         display: grid;
         place-content: center;
+        font-family:'myFont','my2font',Verdana, Geneva, Tahoma, sans-serif;
     }
     .container{
         width: 25rem;
