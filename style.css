@@ -71,3 +71,80 @@
         border-bottom: 1px solid black;
     }
 }
+/*desktop view*/
+@media screen and (min-width:45rem) {
+    body{
+        background-color:rgb(247, 219, 231);
+        display: grid;
+        place-content: center;
+    }
+    .container{
+        width: 25rem;
+        background-color:var(--bg-color);
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+    img{
+        max-width: 100%;
+        border-radius: 1rem;
+    }
+    .topic{
+        text-align: center;
+        text-wrap: wrap;
+    }
+    .intro{
+        color:var(--font-color);
+    }
+    .preparation-time{
+        background-color:hsl(330, 100%, 98%);
+        border-radius: 2rem;
+        padding: 0.3rem;
+        margin-left: 1rem;
+        font-weight: 500;
+    }
+    .header1{
+        color: hsl(332, 51%, 32%); 
+    }
+    .list-time li{
+        line-height: 1.5rem;
+    }
+    .ingredients-head{
+        color: var(--head-color);   
+    }
+    .inside-ingredients{
+        color: var(--font-color);
+        list-style-position: outside;
+        line-height: 1.5rem;
+    }
+    .instructions-topic{
+        color: var(--head-color);
+    }
+    ol{
+        list-style-image: var(--head-color);
+        line-height: 1.4rem;
+    }
+    .nutrition-head{
+        color: var(--head-color);
+    }
+    .conclusion{
+        text-align: justify;
+    }
+    .end{
+        display: grid;
+    }
+    .nutrition-calories{
+        text-align: center;
+    }
+    td{
+        border-bottom: 1px solid;
+    }
+    table:last-child{
+        border: none;
+    }
+    .to-be-changed{
+        align-items: start;
+        font-weight: bolder;
+        color: var(--head-color);
+        border-bottom: 1px solid black;
+    }
+}
