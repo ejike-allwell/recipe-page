@@ -19,7 +19,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [solution](https://github.com/ejike-allwell/recipe-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Recipe-page]([https://your-live-site-url.com](https://recipe-page-navy-five.vercel.app/))
 
 ## My process
   Set up the structure using HTML5 and styled it CSS3
